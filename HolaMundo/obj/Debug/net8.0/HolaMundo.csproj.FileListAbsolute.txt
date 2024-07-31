@@ -1,0 +1,15 @@
+/workspaces/CursoCsharp/HolaMundo/bin/Debug/net8.0/HolaMundo
+/workspaces/CursoCsharp/HolaMundo/bin/Debug/net8.0/HolaMundo.deps.json
+/workspaces/CursoCsharp/HolaMundo/bin/Debug/net8.0/HolaMundo.runtimeconfig.json
+/workspaces/CursoCsharp/HolaMundo/bin/Debug/net8.0/HolaMundo.dll
+/workspaces/CursoCsharp/HolaMundo/bin/Debug/net8.0/HolaMundo.pdb
+/workspaces/CursoCsharp/HolaMundo/obj/Debug/net8.0/HolaMundo.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/CursoCsharp/HolaMundo/obj/Debug/net8.0/HolaMundo.AssemblyInfoInputs.cache
+/workspaces/CursoCsharp/HolaMundo/obj/Debug/net8.0/HolaMundo.AssemblyInfo.cs
+/workspaces/CursoCsharp/HolaMundo/obj/Debug/net8.0/HolaMundo.csproj.CoreCompileInputs.cache
+/workspaces/CursoCsharp/HolaMundo/obj/Debug/net8.0/HolaMundo.sourcelink.json
+/workspaces/CursoCsharp/HolaMundo/obj/Debug/net8.0/HolaMundo.dll
+/workspaces/CursoCsharp/HolaMundo/obj/Debug/net8.0/refint/HolaMundo.dll
+/workspaces/CursoCsharp/HolaMundo/obj/Debug/net8.0/HolaMundo.pdb
+/workspaces/CursoCsharp/HolaMundo/obj/Debug/net8.0/HolaMundo.genruntimeconfig.cache
+/workspaces/CursoCsharp/HolaMundo/obj/Debug/net8.0/ref/HolaMundo.dll
