@@ -22,7 +22,6 @@ class Program {
         // decimal solo puede representar hasta 28 decimales, termina con una M
         decimal x = 3.14164848484346326377375776785685385835m;
         Console.WriteLine(x);
-        ulong edad = 0;
 
         // CONSTANTES const
         const double pi = 3.1416;
@@ -30,6 +29,7 @@ class Program {
         // VARIABLES SIN SIGNO
         int a = -7;
         uint b = 1;
+        uint edad = 0;
 
         // LEER ENTRADA
         double estatura;
