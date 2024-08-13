@@ -1,40 +1,35 @@
-﻿// Temas de éste capítulo:
-//  - Impresión en pantalla VISTO
-//  - Variables VISTO
-//     - Enteros de 16, 32 y 64 bits
-//     - Números double y float
-//     - Constantes
-//     - Variables sin signo
-// - Leer entrada
-
-class Program {
+﻿class Program {
     static void Main() {
-        // SÓLO REPRESENTAN NÚMEROS ENTEROS
-        // NO DECIMALES
-        // short 16 bits
-        // int 32 bits
-        // long 64 bits
+        // TEXTOS, CARÁCTERES
+        // LEER TEXTOS Y CARÁCTERES
+        // Anotación: Los textos se representan con comillas dobles ""
+        // Anotación: Los carácteres se representan con comillas simples ''
+        // string es para textos
+        // char es para carácteres
+        //string miTexto = "Calor";
+        //char caracter = 'd';
 
-        // DECIMALES
-        // double y float
-        // float solo puede representar hasta 7 decimales, termina con una F
-        // double solo puede representar hasta 15 decimales
-        // decimal solo puede representar hasta 28 decimales, termina con una M
-        decimal x = 3.14164848484346326377375776785685385835m;
-        Console.WriteLine(x);
+        // SIGUIENTE TEMA
+        // Leer textos y carácteres
+        // Console.ReadLine(); // Para textos
+        // char.Parse(Console.ReadLine()!); // Para carácteres
 
-        // CONSTANTES const
-        const double pi = 3.1416;
+        Console.WriteLine("Dime algo");
+        string miTexto = Console.ReadLine()!;
+        Console.WriteLine("Mostrar ese algo: "+miTexto);
 
-        // VARIABLES SIN SIGNO
-        int a = -7;
-        uint b = 1;
-        uint edad = 0;
+        // Para leer carácteres
+        Console.WriteLine("Dime un carácter");
+        char c = char.Parse(Console.ReadLine()!);
+        Console.WriteLine("Mostrar ese carácter: "+c);
 
-        // LEER ENTRADA
-        double estatura;
-        Console.WriteLine("Cuál es tu estatura en metros?");
-        estatura = double.Parse(Console.ReadLine());
-        Console.WriteLine("Tu estatura es de " + estatura + " metros");
+        // Ejemplo real
+        Console.WriteLine("Dime tu nombre");
+        string nombre = Console.ReadLine()!;
+        Console.WriteLine($"Hola, {nombre}!");
+
+        Console.WriteLine("Cuál es tu letra favorita?");
+        char letra = char.Parse(Console.ReadLine()!);
+        Console.WriteLine("Tu letra favorita es "+letra);
     }
 }
